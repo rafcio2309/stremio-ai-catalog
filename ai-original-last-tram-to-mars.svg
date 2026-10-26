@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="Ostatni Tramwaj na Marsa">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10182c"/><stop offset="1" stop-color="#6d3e78"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#f3d99b" stop-opacity=".9"/><stop offset="1" stop-color="#f3d99b" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <circle cx="410" cy="250" r="230" fill="url(#glow)"/>
+  <path d="M0 670 Q150 520 300 680 T600 640 V900 H0Z" fill="#111827" opacity=".8"/>
+  <text x="42" y="735" fill="#fff" font-size="35" font-family="sans-serif" font-weight="700">Ostatni Tramwaj na Marsa</text>
+  <text x="42" y="790" fill="#e7d7f2" font-size="20" font-family="sans-serif">AI ORIGINAL • grafika zastępcza</text>
+  <text x="42" y="850" fill="#c5b4d6" font-size="15" font-family="sans-serif" letter-spacing="4">KATALOG DEMO</text>
+</svg>

@@ -1,0 +1,35 @@
+{
+  "id": "org.example.stremio-ai-catalog",
+  "version": "1.0.0",
+  "name": "Legalne filmy + AI Originals",
+  "description": "Statyczny katalog filmów, seriali i autorskich koncepcji AI. Nie hostuje streamów.",
+  "resources": [
+    "catalog",
+    "meta"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "films",
+      "name": "Legalne filmy"
+    },
+    {
+      "type": "series",
+      "id": "series",
+      "name": "Seriale"
+    },
+    {
+      "type": "movie",
+      "id": "ai-originals",
+      "name": "AI Originals"
+    }
+  ],
+  "idPrefixes": [
+    "ai-catalog-",
+    "big-buck-bunny-cc"
+  ]
+}
